@@ -1,0 +1,41 @@
+Položky menu:
+Options:
+Vlastni:
+- Otevøe dialog pro vytvoøení herní plochy, dle vlastních požadavkù.
+Nahrát:
+- Nahraje herní plochu ze souboru *.map vytvoøenou v Editoru.
+
+Extra:
+Jedna ze dvou:
+"1"
+- Umožní oznaèit dvì políèka, pøièemž když je mina pouze pod jedním, odhalí se pole bez miny a políèko s minou se oznaèí vlajkou + pøiète se penalta 10 sekund. Pokud bude mina pod obìma poli, nebo pod žádným - hra konèí. Jakákoli jiná akce, než kliknutí na herní plochu ruší mód "Jedna ze dvou" bez postihu.
+Vsaï si:
+"B"
+- Pøepne program do módu sázení, kdy si lze vsadit na maximálnì 10 políèek. Lze vsadit jen na políèka, kolem kterých není žádnì odkryté. Lze zrušit sázku na pole, kolem kterého není žádné odkryté políèko bez penalizace. Pøi zrušení sázky na pole, kolem kterého již bylo nìkteré políèko odkryto hráè obdrží penalizaci 10 sekund. V pøípadì správného tipu získává hráè bonus -10 sekund.
+Znaèky ?:
+- Lze použít pøi podezøení u políèka na minu, pro lepší orientaci. Oznaèení pole otazníkem žádným spùsobem nechrání políèko pøed odhalením.
+Symbol vlajky:
+- zmìní symbol zobrazovaný jako vlajka (bude fungovat od další hry)
+
+servis:
+Editor:
+---viz.níže ve vlastní sekci
+Restart:
+- Restartuje hru se stejným rozmístnìním min.
+
+Editor:
+- První pole urèuje šíøku pole - pøepínaèem "nahoru/dolu" se zvìtšuje/zmenšuje šíøka plochy.
+- Druhé pole urèuje výšku pole - pøepínaèem "nahoru/dolu" se zvìtšuje/zmenšuje výška plochy.
+- Tøetí pole ukazuje celkový poèet min na ploše.
+- Tlaèítko se symbolem miny - po stisku se na pole umístòují miny (nastaveno pøi zapnutí editoru) - pravým tlaèítkem se již umístnìné miny z plochy odstraní.
+- Tlaèítko se symbolem prázdného pole - po stisku se levým tlaèítkem mažou již umístnìné miny.
+"Show" 
+- ukáže dialog, kde je rozmístnìní min zobrazeno jako jednièky (je mina) a nuly (prázdné pole).
+"Reset" 
+- vymaže všechny rozmístnìné miny
+"Load"
+- umožní nahrát navrženbou mapu ze souboru *.map  .
+"Save"
+- umožní uložit navženou mapu do souboru *.map .
+"Návrat"
+- návrat do hry - navržená mapa se zobrazí na herní ploše.
